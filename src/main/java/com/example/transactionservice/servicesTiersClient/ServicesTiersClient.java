@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @FeignClient(
         name = "servicestiers-service",
-        url = "${application.config.servicestiers-url}"
+        url = "https://servicestier.onrender.com"
 )
 public interface ServicesTiersClient {
      @PostMapping("/doTransaction")

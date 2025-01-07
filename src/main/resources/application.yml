@@ -3,3 +3,7 @@ spring:
     import: optional:configserver:https://bankati-config-server.onrender.com
   application:
     name: Transaction-service
+
+  mongodb:
+    uri: mongodb+srv://lailatimasli1:c0TYbd5LBp8CCyXn@cluster0.y79kza1.mongodb.net/user?retryWrites=true&w=majority&ssl=false
+
